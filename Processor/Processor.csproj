@@ -7,9 +7,7 @@
 
     <ItemGroup>
       <None Remove="VoleCode.txt" />
-      <Content Include="VoleCode.txt">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Content>
+      <Content Include="VoleCode.txt" />
     </ItemGroup>
 
     <ItemGroup>
