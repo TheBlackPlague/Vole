@@ -7,25 +7,6 @@ namespace Processor
     public static class InstructionSet
     {
 
-        // opcode (4 bit), operands (12 bits) = 16 bit instructions
-        private const int INSTRUCTION_BYTE_COUNT = 2;
-
-        private static readonly string[] InstructionMnemonic = new[]
-        {
-            "LOAD",
-            "LOAD_C",
-            "STORE",
-            "MOVE",
-            "ADD_I",
-            "ADD_F",
-            "OR",
-            "AND",
-            "XOR",
-            "ROTATE",
-            "JUMP",
-            "HALT"
-        };
-
         public static int ConvertBinToUInt(string binary)
         {
             int x = 0;
