@@ -1,0 +1,8 @@
+﻿bin/
+obj/
+/packages/
+.idea/
+
+VoleCode.txt
+
+Vole.sln.DotSettings.user
